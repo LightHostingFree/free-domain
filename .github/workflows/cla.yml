@@ -1,4 +1,5 @@
-name: "CLA"
+name: CLA
+
 on:
   issue_comment:
     types: [created]
@@ -11,17 +12,14 @@ jobs:
     steps:
       - name: "CLA Assistant"
         if: (github.event.comment.body == 'recheck' || github.event.comment.body == 'I have read the CLA Document and I hereby sign the CLA') || github.event_name == 'pull_request_target'
-        # Beta Release
         uses: contributor-assistant/github-action@v2.3.0
         env:
           GITHUB_TOKEN: ${{ secrets.BOT }}
-          # the below token should have repo scope and must be manually added by you in the repository's secret
           PERSONAL_ACCESS_TOKEN: ${{ secrets.BOT }}
         with:
           path-to-signatures: 'signatures-v2.json'
-          path-to-document: 'https://github.com/LightHostingFree/free-domain/blob/main/terms.md' # e.g. a CLA or a DCO document
-          # branch should not be protected
+          path-to-document: 'https://github.com/LightHostingFree/free-domain/blob/main/terms.md'
           branch: 'main'
           allowlist: lhfd-bot,bot*
-          remote-organization-name: 'light-hosting'
+          remote-organization-name: 'Light-Hosting'
           remote-repository-name: 'cla'
