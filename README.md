@@ -1,10 +1,10 @@
-<p align="center"><img src="https://raw.githubusercontent.com/open-domains/register/main/media/icon.png" height="128"></p>
-<h1 align="center">Open Domains</h1>
+<p align="center"><img src="https://raw.githubusercontent.com/LightHostingFree/free-domain/main/media/icon.png" height="128"></p>
+<h1 align="center">Light Hosting</h1>
 
 <p align="center">
-  <a href="https://github.com/open-domains/register/tree/main/domains"><img src="https://img.shields.io/github/directory-file-count/open-domains/register/domains?label=domains&style=for-the-badge&type=file"></a>
-  <a href="https://github.com/open-domains/register/issues"><img src="https://img.shields.io/github/issues-raw/open-domains/register?label=issues&style=for-the-badge"></a>
-  <a href="https://github.com/open-domains/register/pulls"><img src="https://img.shields.io/github/issues-pr-raw/open-domains/register?label=pull%20requests&style=for-the-badge"></a>
+  <a href="https://github.com/LightHostingFree/free-domain/tree/main/domains"><img src="https://img.shields.io/github/directory-file-count/LightHostingFree/free-domain/domains?label=domains&style=for-the-badge&type=file"></a>
+  <a href="https://github.com/LightHostingFree/free-domain/issues"><img src="https://img.shields.io/github/issues-raw/LightHostingFree/free-domain?label=issues&style=for-the-badge"></a>
+  <a href="https://github.com/LightHostingFree/free-domain/pulls"><img src="https://img.shields.io/github/issues-pr-raw/LightHostingFree/free-domain?label=pull%20requests&style=for-the-badge"></a>
 </p>
 
 <p align="center">Free subdomains for personal sites, open-source projects, and more.</p>
@@ -85,7 +85,7 @@ open-domains register
 ```
 
 ### Manual
-1. **Star** and **[Fork](https://github.com/open-domains/register/fork)** this repository.
+1. **Star** and **[Fork](https://github.com/LightHostingFree/free-domain/fork)** this repository.
 2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain.
 3. Edit the file (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict.
 
@@ -121,4 +121,4 @@ open-domains register
 *Domains used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the pull request.*
 
 ### License
-This project is under a [MIT License](https://github.com/open-domains/register/blob/main/LICENSE).
+This project is under a [MIT License](https://github.com/LightHostingFree/free-domain/blob/main/LICENSE).
