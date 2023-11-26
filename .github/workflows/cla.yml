@@ -22,10 +22,6 @@ jobs:
           path-to-document: 'https://github.com/LightHostingFree/free-domain/blob/main/terms.md' # e.g. a CLA or a DCO document
           # branch should not be protected
           branch: 'main'
-<<<<<<< HEAD
           allowlist: lhfd-bot,bot*
-=======
-          allowlist: LHFD-BOT,bot*
->>>>>>> refs/remotes/origin/main
           remote-organization-name: 'Light-Hosting'
           remote-repository-name: 'cla'
